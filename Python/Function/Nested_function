@@ -1,0 +1,19 @@
+x = 20
+def outera():
+    x = 10
+    def inner():
+        x=5
+        print(x)
+    return inner()
+y = outera()
+
+
+
+def name():
+    return "santosh"
+def outer(name):
+    def inner():
+        x  = name()
+        print ("hi",x)
+    return inner()
+outer(name)

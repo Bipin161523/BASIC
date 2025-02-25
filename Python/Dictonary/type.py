@@ -1,0 +1,5 @@
+a = list(map(str,input("enter keys:").split()))
+b = list(map(str,input("enter values:").split()))
+y = (dict(zip(a,b)))
+print(y)
+print(list(y.items()))

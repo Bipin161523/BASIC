@@ -1,0 +1,6 @@
+f = open(r'C:\Users\Bipin Chaudhary\Documents\fil.txt','r')
+c = f.readline()
+c2 = f.read()
+print(c)
+print(c2)
+f.close()

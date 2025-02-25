@@ -1,0 +1,11 @@
+f1 = open(r'C:\Users\Bipin Chaudhary\Documents\bip.txt','r')
+a = f1.read()
+f2 = open(r'C:\Users\Bipin Chaudhary\Documents\fil.txt','r')
+b = f2.read()
+c = a+b
+f3 = open(r'C:\Users\Bipin Chaudhary\Documents\aka.txt','w')
+f3.write(c)
+print("done")
+f1.close()
+f2.close()
+f3.close()

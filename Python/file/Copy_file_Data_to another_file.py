@@ -1,0 +1,6 @@
+f1 = open(r'C:\Users\Bipin Chaudhary\Documents\bip.txt','r')
+c = f1.read()
+f2 = open(r'C:\Users\Bipin Chaudhary\Documents\fil.txt','w')
+b= f2.write(c)
+f2.close()
+f1.close()
