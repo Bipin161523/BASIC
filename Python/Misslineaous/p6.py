@@ -1,0 +1,5 @@
+a = int(input("inter length of side of square :"))
+print("area of the square is :",a*a)
+b = int(input("inter lenght of rectangle:"))
+c = int(input("inter breath of rectangle:"))
+print("area of the rectangle is:",b*c)

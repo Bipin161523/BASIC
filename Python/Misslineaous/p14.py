@@ -1,0 +1,9 @@
+a = 8
+b = 3
+print("addition is ",a+b)
+print("subtration is ",a-b)
+print("multiplication is ",a*b)
+print("quoitnt is ",a/b)
+print("reminder is ",a%b)
+print("exponent is ",a**b)
+print("flore is ",a//b)
